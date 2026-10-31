@@ -1,46 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.hd{
+
+.hd {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     gap: 100px;
 }
-.hd button{
+
+.hd button {
     padding: 10px;
     background-color: #2FA762;
     color: white;
     border: 0;
     border-radius: 50px;
 }
-.hd h3{
+
+.hd h3 {
     color: #8E8E8E;
 }
-.sec{
+
+.sec {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
-.sec p{
+
+.sec p {
     font-size: 20px;
 }
-span{
+
+span {
     font-weight: 400;
 }
-.h3{
+
+.h3 {
     padding-left: 120px;
     max-width: 1200px;
     margin: 0 auto;
 }
-.mn{
+
+.mn {
     display: none;
 }
-.sec1{
+
+.sec1 {
     display: flex;
     align-items: center;
     background-color: #2FA762;
@@ -49,7 +58,8 @@ span{
     padding: 20px;
     border-radius: 10px;
 }
-.k button{
+
+.k button {
     width: 130px;
     padding: 5px;
     border-radius: 50px;
@@ -57,16 +67,19 @@ span{
     font-weight: bolder;
     border: 0;
 }
-.k p{
+
+.k p {
     font-weight: 100;
 }
-.an{
+
+.an {
     display: flex;
     align-content: center;
     justify-content: center;
     gap: 50px;
 }
-.sec2{
+
+.sec2 {
     display: flex;
     align-items: center;
     background-color: #26C6D8;
@@ -75,7 +88,8 @@ span{
     padding: 20px;
     border-radius: 10px;
 }
-.k button{
+
+.k button {
     width: 130px;
     padding: 5px;
     border-radius: 50px;
@@ -83,79 +97,130 @@ span{
     font-weight: bolder;
     border: 0;
 }
-.k p{
+
+.k p {
     font-weight: 100;
 }
-.o{
+
+.o {
     padding-top: 50px;
     padding-bottom: 50px;
     max-width: 1200px;
     margin: 0 auto;
 }
-.oo{
+
+.oo {
     box-shadow: 3px 10px 10px 10px #F5F5F5;
     width: 320px;
     padding: 10px 20px;
     border-radius: 10px;
 }
-.ff{
+
+.ff {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
 }
-.dd{
+
+.dd {
     border: 2px solid #CBD4D9;
     width: 280px;
     padding: 10px;
     border-radius: 10px;
     align-items: center;
 }
-.d{
+
+.d {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     padding-bottom: 50px;
 }
-.dd h3{
+
+.dd h3 {
     color: #2FA762;
     font-weight: bolder;
 }
-.dc{
+
+.dc {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
 }
-.sec4{
+
+.sec4 {
     background-color: #272727;
     color: white;
 }
-.od{
+
+.od {
     width: 400px;
 }
-.o1{
+
+.o1 {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
     padding-left: 100px;
     padding-bottom: 0;
 }
-.s{
+
+.s {
     background-color: #F1F5F8;
 }
-.ss{
+
+.ss {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     padding-bottom: 100px;
 }
-.sa{
+
+.sa {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+.os{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sec6{
+    background-color: #272727;
+    display: flex;
+    gap: 50px;
+    color: white;
+    width: 1200px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.inp{
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    border: 0;
+}
+.mard{
+    border-radius: 0px 0px 50px 0px;
+    padding-left: 30px;
+}
+.btn{
+    border: 0;
+    border-radius: 50px;
+    background-color: #2FA762;
+    color: white;
+    padding: 20px;
+    width: 200px;
 }
 
 
@@ -175,77 +240,116 @@ span{
 
 
 
+@media (max-width: 500px) {
+    .hd {
+        display: none;
+    }
 
-@media (max-width: 500px){
-    .hd{
+    .sec p {
         display: none;
     }
-    .sec p{
-        display: none;
-    }
-    .mn{
+
+    .mn {
         display: flex;
     }
-    .sec{
+
+    .sec {
         display: flex;
         gap: 170px;
         padding-top: 20px;
     }
-    .h3{
+
+    .h3 {
         padding-left: 20px;
         font-size: 20px;
     }
-    .an{
+
+    .an {
         flex-direction: column;
     }
-    .sec1{
-        flex-direction: column;
-        width: 330px;
-        margin-left: 10px;
-    }
-    .sec2{
+
+    .sec1 {
         flex-direction: column;
         width: 330px;
         margin-left: 10px;
     }
-    .o{
+
+    .sec2 {
+        flex-direction: column;
+        width: 330px;
+        margin-left: 10px;
+    }
+
+    .o {
         margin-left: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .ff{
+
+    .ff {
         flex-direction: column;
         gap: 20px;
     }
-    .d{
+
+    .d {
         flex-direction: column;
     }
-    .dd{
+
+    .dd {
         width: 330px;
     }
-    .dc{
+
+    .dc {
         flex-direction: column;
         padding-top: 50px;
         gap: 20px;
     }
-    .od{
+
+    .od {
         display: none;
     }
-    .o1{
+
+    .o1 {
         padding: 0;
         padding-top: 10px;
     }
-    .ol{
+
+    .ol {
         margin-left: -30px;
     }
-    .sec4{
+
+    .sec4 {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .ss{
+
+    .ss {
         flex-direction: column;
     }
-    .ll{
+
+    .ll {
         width: 150px;
+    }
+    .mard{
+        display: none;
+    }
+    .sec6{
+        width: 350px;
+        flex-direction: column;
+    }
+    .inp{
+        width: 300px;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .os{
+        flex-direction: column;
+    }
+    .btn{
+        margin-bottom: 20px;
+        margin-left: -10px;
+    }
+    .cv{
+        padding-top: 10px;
     }
 }
