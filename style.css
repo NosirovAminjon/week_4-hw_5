@@ -92,6 +92,24 @@ span{
     max-width: 1200px;
     margin: 0 auto;
 }
+.oo{
+    box-shadow: 3px 10px 10px 10px #F5F5F5;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.ff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+
+
+
+
 
 
 
@@ -139,7 +157,11 @@ span{
     }
     .o{
         margin-left: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .ff{
+        flex-direction: column;
+        gap: 20px;
     }
 }
