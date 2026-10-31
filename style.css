@@ -222,9 +222,21 @@ span {
     padding: 20px;
     width: 200px;
 }
+.ftr{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    background-color: #2FA762;
+    justify-content: center;
+    padding: 20px;
+}
 
-
-
+.l{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
 
 
@@ -351,5 +363,11 @@ span {
     }
     .cv{
         padding-top: 10px;
+    }
+    .ftr{
+        flex-direction: column;
+    }
+    .se{
+        margin-left: -120px;
     }
 }
