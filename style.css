@@ -20,3 +20,56 @@
 .hd h3{
     color: #8E8E8E;
 }
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sec p{
+    font-size: 20px;
+}
+span{
+    font-weight: 400;
+}
+.h3{
+    padding-left: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.mn{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    .hd{
+        display: none;
+    }
+    .sec p{
+        display: none;
+    }
+    .mn{
+        display: flex;
+    }
+    .sec{
+        display: flex;
+        gap: 170px;
+        padding-top: 20px;
+    }
+    .h3{
+        padding-left: 30px;
+    }
+}
