@@ -104,6 +104,24 @@ span{
     justify-content: center;
     gap: 100px;
 }
+.dd{
+    border: 2px solid #CBD4D9;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.dd h3{
+    color: #2FA762;
+    font-weight: bolder;
+}
 
 
 
@@ -163,5 +181,11 @@ span{
     .ff{
         flex-direction: column;
         gap: 20px;
+    }
+    .d{
+        flex-direction: column;
+    }
+    .dd{
+        width: 330px;
     }
 }
