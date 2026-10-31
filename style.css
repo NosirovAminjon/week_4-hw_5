@@ -142,6 +142,21 @@ span{
     padding-left: 100px;
     padding-bottom: 0;
 }
+.s{
+    background-color: #F1F5F8;
+}
+.ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.sa{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
 
 
@@ -226,5 +241,11 @@ span{
     .sec4{
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .ss{
+        flex-direction: column;
+    }
+    .ll{
+        width: 150px;
     }
 }
